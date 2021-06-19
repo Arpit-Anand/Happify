@@ -1,0 +1,2 @@
+rootProject.name = "Happify"
+include ':app'

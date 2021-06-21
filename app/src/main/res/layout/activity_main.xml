@@ -89,6 +89,7 @@
         android:background="@drawable/custbutt"
         android:text="@string/learn_more_about_mental_health"
         android:textColor="@color/black"
+        android:onClick="read"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.058"

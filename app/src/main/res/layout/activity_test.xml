@@ -8,4 +8,16 @@
     android:background="@drawable/bg2">
 
 
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="347dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/happify"
+        android:textAlignment="center"
+        android:textSize="75sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

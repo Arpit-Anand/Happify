@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Happify">
-        <activity android:name=".Read"></activity>
+        <activity android:name=".PTSD"></activity>
+        <activity android:name=".Addiction" />
+        <activity android:name=".Anxiety" />
+        <activity android:name=".Depression" />
+        <activity android:name=".Read" />
         <activity android:name=".Breathe" />
         <activity android:name=".Test" />
         <activity android:name=".MainActivity">

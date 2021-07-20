@@ -9,8 +9,8 @@
     android:background="@drawable/bg2">
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:layout_width="347dp"
-        android:layout_height="105dp"
+        android:layout_width="400dp"
+        android:layout_height="107dp"
         android:layout_marginStart="8dp"
         android:fontFamily="sans-serif-black"
         android:text="@string/happify"
@@ -22,14 +22,13 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button2"
         android:layout_width="137dp"
         android:layout_height="60dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="540dp"
-        android:background="@drawable/custbutt"
-        android:onClick="test"
+        android:background="@drawable/custbutt1"
+        android:id="@+id/test"
         android:text="@string/take_a_test"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -38,12 +37,12 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/breathe"
         android:layout_width="137dp"
         android:layout_height="60dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:background="@drawable/custbutt"
-        android:onClick="breathe"
+        android:background="@drawable/custbutt1"
         android:text="@string/breathing_exercises"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -51,7 +50,7 @@
         app:layout_constraintHorizontal_bias="0.058"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.4" />
+        app:layout_constraintVertical_bias="0.378" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/close"
@@ -60,7 +59,6 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:background="@drawable/close"
-        android:onClick="close"
         android:text="@string/close"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -84,16 +82,16 @@
         app:layout_constraintVertical_bias="0.937" />
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/read"
         android:layout_width="137dp"
         android:layout_height="105dp"
-        android:background="@drawable/custbutt"
+        android:background="@drawable/custbutt1"
         android:text="@string/learn_more_about_mental_health"
         android:textColor="@color/black"
-        android:onClick="read"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.058"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.63" />
+        app:layout_constraintVertical_bias="0.57" />
 </androidx.constraintlayout.widget.ConstraintLayout>
